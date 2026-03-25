@@ -1,0 +1,41 @@
+{
+  "issue": 54435,
+  "before": {
+    "issue": 54435,
+    "phase": "before-fix",
+    "mainStorePath": "/var/folders/p5/57fgd5yx1y59pf175sq3k7q80000gn/T/openclaw-54435-before-fix-EaRyGd/custom-state/agents/main/sessions/sessions.json",
+    "codexStorePath": "/var/folders/p5/57fgd5yx1y59pf175sq3k7q80000gn/T/openclaw-54435-before-fix-EaRyGd/custom-state/agents/codex/sessions/sessions.json",
+    "combinedStoreKeys": [
+      "agent:main:main"
+    ],
+    "responseOk": true,
+    "apiCount": 1,
+    "apiSessionKeys": [
+      "agent:main:main"
+    ],
+    "apiSessionIds": [
+      "sess-main"
+    ]
+  },
+  "after": {
+    "issue": 54435,
+    "phase": "after-fix",
+    "mainStorePath": "/var/folders/p5/57fgd5yx1y59pf175sq3k7q80000gn/T/openclaw-54435-after-fix-B6eZ09/custom-state/agents/main/sessions/sessions.json",
+    "codexStorePath": "/var/folders/p5/57fgd5yx1y59pf175sq3k7q80000gn/T/openclaw-54435-after-fix-B6eZ09/custom-state/agents/codex/sessions/sessions.json",
+    "combinedStoreKeys": [
+      "agent:codex:acp-task",
+      "agent:main:main"
+    ],
+    "responseOk": true,
+    "apiCount": 2,
+    "apiSessionKeys": [
+      "agent:codex:acp-task",
+      "agent:main:main"
+    ],
+    "apiSessionIds": [
+      "sess-codex",
+      "sess-main"
+    ]
+  },
+  "fixConfirmed": true
+}

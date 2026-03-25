@@ -1,0 +1,9 @@
+OpenClaw #54435 proof summary
+
+Scenario: cfg.session.store is a literal path to .../agents/main/sessions/sessions.json
+Expected: sessions.list should include sibling agent stores under the same agents root
+
+Before fix: apiCount=1 keys=agent:main:main
+After fix: apiCount=2 keys=agent:codex:acp-task, agent:main:main
+
+Result: fixed

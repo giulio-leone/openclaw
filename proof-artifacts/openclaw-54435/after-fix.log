@@ -1,0 +1,6 @@
+OpenClaw #54435 API proof (after-fix)
+
+combinedStoreKeys=agent:codex:acp-task, agent:main:main
+apiCount=2
+apiSessionKeys=agent:codex:acp-task, agent:main:main
+apiSessionIds=sess-codex, sess-main
